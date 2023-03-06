@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+  border: 1px solid green;
+}
+.container{
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+}
