@@ -1,12 +1,8 @@
 html,
 body {
   height: 100%;
-  border: 1px solid green;
+  transition: background-color 0.3s ease;
 }
-.container{
-    height: 100% !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid red;
+main{
+    height: calc(100% - 56px);
 }
